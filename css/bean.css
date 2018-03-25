@@ -50,11 +50,12 @@ img {
 	border: 0;
 	vertical-align: middle;
 	max-width: 100%;
+	min-width: 64px;
 	height: auto; }
 
 .blk img { width:10%; }
 
-.blk { padding: 1.5em; }
+.blk { margin: 1.5em; }
 
 .left { float:left; display:inline; }
 .right { float:right; display:inline; }
@@ -74,30 +75,38 @@ img {
 	text-align:left; }
 
 .green div.blk, .bean div.blk {
-	padding-top:28vh;
-	padding-left:3em;
-	padding-right:3em; }
+	margin-top:28vh;
+	margin-left:3em;
+	margin-right:3em; }
 
-br.clear { clear: both; }
+.copy div.blk {	margin:3em; }
 
-@media only screen
-and (max-device-width : 720px) {
+.text-center { text-align:center; }
+
+br.clear { clear:both; }
+
+@media only screen and (max-width : 1280px) {
+
+	.half .half { width:auto; }
+
+}
+
+@media only screen and (max-device-width : 720px) {
 
 	body { font-size:1rem; }
 
 	h1, h2 { font-size:2rem; }
 
-	.blk { padding:2em; }
+	.blk { margin:2em; }
 
-	.blk img {
-		width:25%; }
+	.blk img { width:25%; }
 
 	.half { width:100%; }
-	.green {
-		text-align:center; }
+	.green { text-align:center; }
 	.green, .bean {
 		min-height:33vh;
 		width:100%; }
 
-	.green div.blk, .bean div.blk {
-		padding-top:9vh; } }
+	.green div.blk, .bean div.blk {	margin-top:9vh; }
+
+}
