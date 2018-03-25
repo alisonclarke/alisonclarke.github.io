@@ -14,7 +14,7 @@ body {
 	overflow-x:hidden; }
 
 h1 {
-	font-size:3rem;
+	font-size:3em;
 	font-weight: 700;
 }
 h2 {
@@ -28,7 +28,8 @@ h3 {
 }
 h5 {
 	font-size:1.25em;
-	font-weight: 400; }
+	font-weight: 400;
+}
 
 h4, h6, li, .small {
 	font-style: normal;
@@ -91,11 +92,13 @@ br.clear { clear:both; }
 
 }
 
-@media only screen and (max-device-width : 720px) {
+@media only screen and (max-width : 720px) {
 
 	body { font-size:1rem; }
 
-	h1, h2 { font-size:2rem; }
+	h1 { font-size:2em; }
+
+	h5 { font-size:1.2em; }
 
 	.blk { margin:2em; }
 
