@@ -35,7 +35,7 @@ h4, h6, li, .small {
   font-style: normal;
   font-weight: 400; }
 
-p { margin-bottom:1em; font-weight:400; }
+p { margin-bottom:1em; font-size:1em; font-weight:400; }
 b, strong {  font-weight: 700; }
 em, i { font-style:italic; }
 /* strong, b { font-weight:600; } */
@@ -100,7 +100,9 @@ br.clear { clear:both; }
 
   h1 { font-size:2em; }
 
-  h5 { font-size:1.2em; }
+  h5 { font-size:1.25em; }
+
+  p { font-size:1em; }
 
   img.logo { max-width: 10%; }
 
