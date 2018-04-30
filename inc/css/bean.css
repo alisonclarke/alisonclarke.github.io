@@ -1,0 +1,178 @@
+* { border:0;
+  margin:0;
+  padding:0;
+}
+html {
+  background-color:#bbcc88;
+  color:#7faf47;
+}
+body {
+  font-family: 'Playfair Display', serif;
+  font-size:1.2rem;
+  height:100%;
+  width:100%;
+  overflow-x:hidden;
+}
+h1 {
+  font-size:3em;
+  font-weight:700;
+}
+h2 {
+  font-size:2.5em;
+  font-weight:700;
+  margin-top:1em;
+}
+h3 {
+  font-size:2em;
+  font-weight:400;
+}
+h5 {
+  font-size:1.25em;
+  font-weight:400;
+}
+h4,
+h6,
+li,
+.small {
+  font-style:normal;
+  font-weight:400;
+}
+p {
+  margin-bottom:1em;
+  font-size:1em;
+  font-weight:400;
+}
+b,
+strong {
+  font-weight:700;
+}
+em,
+i {
+  font-style:italic;
+}
+a {
+  color:#7faf47;
+  font-weight:600;
+  text-decoration:underline;
+}
+a:hover {
+  text-shadow:rgba(0,0,0,0.5);
+}
+.small {
+  font-size:0.75em;
+}
+.small a {
+  text-decoration:overline;
+}
+.text-center {
+  text-align:center;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+img.logo {
+  min-width: 64px;
+  width:10%;
+}
+
+.blk {
+  margin:1.5em;
+}
+.copy div.blk {
+  margin:3em;
+}
+.linebreak {
+  margin-top:1.5em;
+}
+.half {
+  width:50%;
+}
+.left {
+  float:left;
+  display:inline;
+}
+.right {
+  float:right;
+  display:inline;
+}
+br.clear {
+  clear:both;
+}
+
+.green {
+  background-color:#7faf47;
+  color:#f7efcf;
+  min-height:67vh;
+  text-align:right;
+}
+.bean {
+  background-color:#f7efcf;
+  color:#7faf47;
+  height:100%;
+  min-height:67vh;
+  text-align:left;
+}
+.green div.blk,
+.bean div.blk {
+  margin-top:28vh;
+  margin-left:3em;
+  margin-right:3em;
+}
+
+@media only screen
+and (max-width : 1440px) {
+
+  .half .half {
+    width:auto;
+  }
+
+}
+
+@media only screen
+and (max-width : 960px) {
+
+  body {
+    font-size:1rem;
+  }
+  h1 {
+    font-size:2em;
+  }
+  h5 {
+    font-size:1.25em;
+  }
+  p {
+    font-size:1em;
+  }
+
+  img.logo {
+    max-width: 10%;
+  }
+
+  .blk {
+    margin:2em;
+  }
+  .blk img {
+    width:25%;
+  }
+  .half {
+    width:100%;
+  }
+
+  .green {
+    text-align:left;
+  }
+  .green, .bean {
+    min-height:33vh;
+    width:100%;
+  }
+  .green div.blk,
+  .bean div.blk {
+    margin-top:9vh;
+  }
+
+}
