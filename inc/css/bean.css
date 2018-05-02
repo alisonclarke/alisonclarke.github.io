@@ -27,8 +27,9 @@ h3 {
   font-weight:400;
 }
 h5 {
-  font-size:1.25em;
+  font-size:1.2em;
   font-weight:400;
+  text-transform:uppercase;
 }
 h4,
 h6,
@@ -59,9 +60,11 @@ a:hover {
   text-shadow:rgba(0,0,0,0.5);
 }
 .small {
-  font-size:0.75em;
+  color:#f7efcf;
+  font-size:0.6em;
 }
 .small a {
+  color:#f7efcf;
   text-decoration:overline;
 }
 .text-center {

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+  <defs><style>.bean-light { fill: #f7efcf; }</style></defs>
+
+  <title>Bean (Icon 1.0, Light)</title>
+
+  <g id="bean.-icon">
+    <path class="bean-light" d="M414.7,167.126c-33.4,7.293 -82.177,36.788 -120.907,75.82c-38.73,39.033 -63.602,77.031 -128.37,97.946c-24.578,7.937 -50.479,8.596 -62.395,14.215c-5.987,2.824 -4.808,12.332 -1.62,16.582c10.561,14.081 23.673,26.184 37.323,33.178c61.345,31.427 122.798,24.901 195.139,-14.928c75.838,-41.754 110.408,-89.676 114.003,-150.587c1.191,-20.174 -6.147,-46.498 -16.209,-64.823c-4.192,-7.635 -10.78,-8.753 -16.964,-7.403Z"/>
+    <path class="bean-light" d="M87.97,334.963c17.494,0.969 29.767,-3.831 54.098,-13.713c60.679,-24.644 87.432,-54.885 130.108,-105.902c31.592,-37.766 73.259,-52.311 135.001,-62.372c4.952,-0.807 2.449,-15.332 -5.871,-24.874c-42.481,-48.717 -114.482,-58.311 -219.539,-4.175c-111.962,57.694 -135.965,165.551 -105.84,203.745c2.283,2.895 8.481,7.094 12.043,7.291Z"/></g></svg>
