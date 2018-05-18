@@ -7,11 +7,14 @@ html {
   color:#7faf47;
 }
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size:1.2rem;
   height:100%;
   width:100%;
   overflow-x:hidden;
+}
+h1, h2 {
+  font-family: 'Playfair Display', serif;
 }
 h1 {
   font-size:3em;
