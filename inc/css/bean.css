@@ -60,10 +60,15 @@ i {
 a {
   color:#7faf47;
   font-weight:600;
-  text-decoration:underline;
+  text-decoration:none;
 }
 a:hover {
   text-shadow:rgba(0,0,0,0.5);
+}
+.fr {
+  background: #bbcc88;
+  color:#f7efcf;
+  font-style: italic;
 }
 .small {
   color:#f7efcf;
