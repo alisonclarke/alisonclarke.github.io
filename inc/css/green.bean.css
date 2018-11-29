@@ -241,8 +241,8 @@ and (max-width : 960px) {
   .block {
     margin:2em;
   }
-  .bean,
-  .grape {
+  .menu,
+  .text {
     min-height:33vh;
   }
   .menu,
