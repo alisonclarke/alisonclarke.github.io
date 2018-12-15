@@ -51,7 +51,8 @@ input:active {
 .grape a.menu-item,
 .grape .small,
 .grape .small a,
-.grape button {
+.grape button,
+.grape button .fr {
   color: #f7efcf;
 }
 .grape a,
@@ -63,7 +64,8 @@ input:active {
   background-color: #cc88aa;
   border: 2px solid #af477f;
 }
-.grape button:hover {
+.grape button:hover,
+.grape button:hover .fr {
   background-color: #af477f;
 }
 .grape input,
