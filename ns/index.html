@@ -19,25 +19,23 @@
 <link rel="icon" href="../inc/ico/bean.1.0.green.92.png">
 
 <style>
+  html { background-color:#7faf47; }
+  body { display:none; }
   .loader {
-    position:absolute;
-    display:block;
-    z-index:100;
-    width:100%;
-    height:100%;
-    background-color:#7faf47;
-    padding:calc( 8vh + 2em ) 2em;
+    position: absolute;
+    display: block;
+    padding: calc( 8vh + 2em ) 2em;
   }
   .loader .logo {
     position:relative;
-    z-index: 101;
   }</style>
+
 <noscript>
   <style>
-    .loader,
-    .loader .logo {
-      display: none;
-    }</style></noscript></head>
+    body { display: block; }
+    .loader, .loader .logo { display: none; }</style></noscript>
+
+</head>
 
 <body class="bean">
   <div class="loader">

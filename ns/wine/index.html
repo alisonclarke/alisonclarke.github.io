@@ -19,25 +19,23 @@
 <link rel="icon" href="../../inc/ico/bean.1.0.light.92.png">
 
 <style>
+  html { background-color:#af477f; }
+  body { display:none; }
   .loader {
-    position:absolute;
-    display:block;
-    z-index:100;
-    width:100%;
-    height:100%;
-    background-color:#af477f;
-    padding:calc( 8vh + 2em ) 2em;
+    position: absolute;
+    display: block;
+    padding: calc( 8vh + 2em ) 2em;
   }
   .loader .logo {
     position:relative;
-    z-index: 101;
   }</style>
+
 <noscript>
   <style>
-    .loader,
-    .loader .logo {
-      display: none;
-    }</style></noscript></head>
+    body { display: block; }
+    .loader, .loader .logo { display: none; }</style></noscript>
+
+</head>
 
 <body class="grape">
   <div class="loader">
@@ -80,7 +78,13 @@
       <p class="small">Copyright &copy; 2018 Alison Clarke.</p></div><br class="clear" /></div><br class="clear" />
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>$(window).on( 'load', function(){ $('.loader').fadeOut('slow'); });</script>
+  <script>
+    $(document).ready(function() {
+
+      $('.loader').fadeOut('slow');
+      $('body').fadeIn('slow');
+
+    });</script>
 
 </body>
 </html>
