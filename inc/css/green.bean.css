@@ -270,7 +270,7 @@ and ( max-width : 1919px ) {
 and ( max-width : 1440px ) {
 
   body {
-    font-size: calc( 10.5px + ( 5.5 * ( ( 100vw - 960px ) / 480 ) ) );
+    font-size: calc( 10.5px + ( 5.5 * ( ( 100vw - 480px ) / 480 ) ) );
   }
 
   .half .half {
@@ -283,7 +283,7 @@ and ( max-width : 1440px ) {
 and ( max-width : 960px ) {
 
   body {
-    font-size: 1.2rem;
+    font-size: calc( 10px + ( 14 * ( ( 100vw - 480px ) / 480 ) ) );
   }
   .menu.text-right {
     text-align: left;
@@ -307,6 +307,15 @@ and ( max-width : 960px ) {
   img.logo {
     max-width: 10%;
     width: 25%;
+  }
+
+}
+
+@media only screen
+and ( max-width : 480px ) {
+
+  body {
+    font-size: 1rem;
   }
 
 }
