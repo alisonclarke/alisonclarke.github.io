@@ -207,6 +207,9 @@ body {
 .half {
   width: 50%;
 }
+.half .half {
+  width: 62.5%;
+}
 .left {
   float: left;
   display: inline;
