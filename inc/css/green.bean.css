@@ -37,6 +37,28 @@ input:active {
   color: #7faf47;
 }
 
+.gray,
+.gray .fr {
+  background-color: #bbbaaa;
+}
+.gray .main {
+  background-color: #222;
+}
+.gray .text {
+  background-color: #f7efcf;
+}
+.gray,
+.gray .small,
+.gray .small a {
+  color: #f7efcf;
+}
+.gray a,
+.gray a.menu-item,
+.gray .text,
+.gray .fr {
+  color: #222;
+}
+
 .grape,
 .grape .fr {
   background-color: #cc88aa;
