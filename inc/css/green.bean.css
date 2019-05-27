@@ -22,7 +22,11 @@ input:active {
 .bean .main {
   background-color: #7faf47;
 }
-.bean .text {
+input,
+textarea,
+.bean .text,
+.gray .text,
+.grape .text {
   background-color: #f7efcf;
 }
 .bean,
@@ -44,9 +48,6 @@ input:active {
 .gray .main {
   background-color: #222;
 }
-.gray .text {
-  background-color: #f7efcf;
-}
 .gray,
 .gray .small,
 .gray .small a {
@@ -60,14 +61,15 @@ input:active {
 }
 
 .grape,
-.grape .fr {
+.grape .fr,
+.grape button {
   background-color: #cc88aa;
 }
-.grape .main {
+.grape .main,
+.grape button:hover,
+.grape button:hover .fr,
+input[type='checkbox']:checked {
   background-color: #af477f;
-}
-.grape .text {
-  background-color: #f7efcf;
 }
 .grape,
 .grape a.menu-item,
@@ -83,16 +85,10 @@ input:active {
   color: #af477f;
 }
 .grape button {
-  background-color: #cc88aa;
   border: 2px solid #af477f;
-}
-.grape button:hover,
-.grape button:hover .fr {
-  background-color: #af477f;
 }
 .grape input,
 .grape textarea {
-  background-color: #f7efcf;
   border: 2px solid #cc88aa;
   color: #af477f;
 }
@@ -102,7 +98,6 @@ input:active {
   overflow: hidden;
 }
 input[type='checkbox']:checked {
-  background-color: #af477f;
   border: 2px solid #af477f;
 }
 
