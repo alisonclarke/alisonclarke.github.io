@@ -15,19 +15,20 @@ input:active {
   box-shadow: 0;
 }
 
-.bean,
-.bean .fr {
-  background-color: #bbcc88;
-}
-.bean .main {
-  background-color: #7faf47;
-}
 input,
 textarea,
 .bean .text,
 .gray .text,
 .grape .text {
   background-color: #f7efcf;
+}
+.bean,
+.bean .fr,
+.bean .copy {
+  background-color: #bbcc88;
+}
+.bean .main {
+  background-color: #7faf47;
 }
 .bean,
 .bean a.menu-item,
@@ -62,6 +63,7 @@ textarea,
 
 .grape,
 .grape .fr,
+.grape .copy,
 .grape button {
   background-color: #cc88aa;
 }
