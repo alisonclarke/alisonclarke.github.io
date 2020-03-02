@@ -180,6 +180,9 @@ button {
 .small a {
   text-decoration: overline;
 }
+.header {
+  text-transform: lowercase;
+}
 .title {
   text-transform: uppercase;
 }
@@ -191,7 +194,8 @@ label {
   padding: 0.25em 0;
 }
 button, input {
-  padding: 0.25em 0.5em;
+  padding: 0.25em 0;
+  width: 100%;
 }
 input[type='text'],
 input[type='email'],
@@ -255,6 +259,9 @@ body {
 }
 label.linebreak {
   margin-top: 0.75em;
+}
+.lineend {
+  margin-bottom: 1.5em;
 }
 .clear {
   margin: 0;
