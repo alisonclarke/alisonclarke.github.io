@@ -180,6 +180,9 @@ button {
 .small a {
   text-decoration: overline;
 }
+.title {
+  text-transform: uppercase;
+}
 button, label, input, textarea {
   display: block;
   font-size: 1.5em;
