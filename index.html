@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en, fr">
+<html lang="en">
 <head>
 
   <meta charset="UTF-8" />
@@ -40,40 +40,62 @@
   <div class="loader">
     <!--img src="inc/ico/bean.1.1.light.svg" class="logo" /--></div>
 
-  <div class="main">
-    <div class="menu half left text-right">
-      <div class="block">
-        <img src="inc/ico/bean.1.1.light.svg" class="logo" /></div>
-      <div class="block">
+  <article class="diptych">
+    <div class="menu diptych ptych-fixed text-right">
+      <div class="ptych-right">
+        <img src="inc/ico/bean.1.1.light.svg" class="logo" />
+
         <!--h5>Consultation &amp; Curration:</h5-->
         <ul>
-          <li>More about Alison.
-            <br><em class="menu-item">Political Organizer</em>
-            <br><a class="menu-item" href="grapevine/">Wine Wizard</a></li></ul></div></div>
+          <li>
+            <em class="menu-item">Alison Clarke</em>
+            <!-- <br><a class="menu-item" href="challah/">Dolla Makes Me Challah</a> -->
+            <br><a class="menu-item" href="grapevine/">Grape Vine</a>
+
+          </li>
+        </ul>
+
+      </div>
+    </div>
 
     <!--bean #f7efcf-->
-    <div class="text half right">
-      <div class="block half left">
-        <h2 class="header">Alison Clarke</h2>
-        <h5>Political Organizer</h5>
-        <p class="linebreak">Alison welcomes Maritime-based initiatives, in particular those that promote the sustainability of local materials in local markets. <!--font class="fr">Alison se f&eacute;licite des initiatives des Maritimes, en particulier celles qui favorisent la développement durable des mat&eacute;riaux locaux dans les march&eacute;s locaux. Alison, c'est Ali quand vous la rencontrez par e-mail (ou dans un caf&eacute; local avec du caf&eacute; frais pr&eacute;par&eacute; &agrave; partir de grains de caf&eacute; issus du commerce &eacute;quitable).</font--> Alison is Ali when you get to know her (at a local caf&eacute; with fresh coffee made with fair-trade beans, or) at her web address: <a href="mailto:ali@alisonclarke.ca" title="Alison Clarke, political organizer.">ali@alisonclarke.ca</a>. <font class="fr"></font></p>
-      </div><br class="clear"></div><br class="clear"></div><br class="clear">
+    <div class="text diptych ptych-fixed">
+      <div class="ptych-left">
 
-  <!--footer #bbcc88-->
-  <div class="copy half right">
-    <div class="block half left">
-      <p class="linebreak small">More about <a href="https://www.linkedin.com/in/alisonperla" rel="noopener" target="_self" title="Alison on Linkedin">Alison</a>. <!--font class="fr">&#92; En savoir plus.</font--></p>
-      <p class="small">Wine cellar website of Alison Clarke designed and developed by <a href="//danealeksander.github.io" target="_blank" title="Dane Aleksander, graphic artist.">Dane Aleksander</a> with GitHub Pages and Google Fonts: <em>Playfair Display</em> (Regular, Bold) designed by Claus Eggers S&#248;rensen; and, <em>Montserrat</em> [Regular, Bold] designed by Julieta Ulanovsky, et al.</p>
-      <p class="small">&copy; 2018 - 2020 Alison Clarke.</p></div><br class="clear"></div><br class="clear">
+        <h2 class="header">Alison&nbsp;Clarke</h2>
+        <h5>K'jipuktuk &#124; Halifax</h5>
+        <p class="linebreak">Alison welcomes Maritime-based initiatives, in particular those that promote the sustainability of local materials in local markets. <!--font class="fr">Alison se f&eacute;licite des initiatives des Maritimes, en particulier celles qui favorisent la développement durable des mat&eacute;riaux locaux dans les march&eacute;s locaux. Alison, c'est Ali quand vous la rencontrez par e-mail (ou dans un caf&eacute; local avec du caf&eacute; frais pr&eacute;par&eacute; &agrave; partir de grains de caf&eacute; issus du commerce &eacute;quitable).</font--> Alison is Ali when you get to know her (at a local caf&eacute; with fresh coffee made with fair-trade beans, or) at her web address: <a href="mailto:ali@alisonclarke.ca" title="Alison Clarke, political organizer.">ali@alisonclarke.ca</a>.</p>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>
-    $(document).ready(function() {
+      </div>
+    </div>
+
+  </article><br class="clear">
+
+  <footer class="diptych ptych-fixed">
+
+    <!--footer #bbcc88-->
+    <div class="copy ptych-right diptych ptych-fixed">
+      <div class="ptych-left">
+        <p class="small">More about <a href="https://www.linkedin.com/in/alisonperla" rel="noopener" target="_self" title="Alison on Linkedin">Alison</a>. <!--font class="fr">&#92; En savoir plus.</font--></p>
+        <p class="small">Website of Alison Clarke (<font class="title">Dolla Makes Me Challah</font>, <font class="title">Grape Vine</font>) designed and developed by <a href="//danealeksander.github.io" target="_blank" title="Dane Aleksander, graphic artist.">Dane Aleksander</a> with GitHub Pages and Google Fonts: <em>Playfair Display</em> and <em>Montserrat</em>.</p>
+        <p class="small">&copy; 2018 - 2020 Alison Clarke.</p>
+
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(
+    function() {
 
       $('.loader').fadeOut('slow');
       $('body').fadeIn('slow');
 
-    });</script>
+    });
+</script>
 
-</body>
 </html>
