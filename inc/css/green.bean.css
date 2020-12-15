@@ -88,11 +88,13 @@ input[type='checkbox']:checked {
   color: #af477f;
 }
 .grape button {
-  border: 2px solid #af477f;
+  /* border: 2px solid #af477f; */
 }
 .grape input,
 .grape textarea {
-  border: 2px solid #cc88aa;
+  box-shadow: inset 0px 0px 0px 2px #cc88aa;
+  box-sizing: border-box;
+  /* border: 2px solid #cc88aa; */
   color: #af477f;
 }
 .grape input[type='checkbox'] {
@@ -399,7 +401,6 @@ and ( max-width : 1440px ) {
   }
 
   article > .diptych.ptych-fixed,
-  footer.diptych.ptych-fixed,
   footer > .diptych.ptych-fixed {
     grid-template-columns: 1fr;
   }
@@ -417,6 +418,11 @@ and ( max-width : 960px ) {
     text-align: left;
   }
 
+  .diptych:not(.ptych-fixed),
+  footer.diptych.ptych-fixed  {
+    grid-template-columns: 1fr;
+  }
+
   article > .diptych.ptych-fixed,
   footer.diptych.ptych-fixed,
   footer > .diptych.ptych-fixed {
@@ -425,12 +431,6 @@ and ( max-width : 960px ) {
       "right";
   }
 
-  .diptych:not(.ptych-fixed)  {
-    grid-template-columns: 1fr;
-  }
-  .block {
-    margin: 2em;
-  }
   .menu,
   .text {
     min-height: 24vh;
