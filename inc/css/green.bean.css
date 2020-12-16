@@ -5,7 +5,7 @@
  Author:       Dane Aleksander
  Author URI:   https://danealeksander.github.io/
  Template:     twentyseventeen
- Version:      0.1.5
+ Version:      0.1.9
 */
 
 /* RESET */
@@ -33,6 +33,28 @@ textarea,
 .challah .text {
   background-color: #f7efcf;
 }
+
+.gray,
+.gray .fr {
+  background-color: #bbbaaa;
+}
+.gray article {
+  background-color: #222;
+}
+.gray,
+.gray .small,
+.gray .small a {
+  color: #f7efcf;
+}
+.gray a,
+.gray a.menu-item,
+.gray .text,
+.gray .fr {
+  color: #222;
+}
+
+/* COLOR : Bean */
+
 .bean,
 .bean .fr,
 .bean .copy {
@@ -53,24 +75,7 @@ textarea,
   color: #7faf47;
 }
 
-.gray,
-.gray .fr {
-  background-color: #bbbaaa;
-}
-.gray article {
-  background-color: #222;
-}
-.gray,
-.gray .small,
-.gray .small a {
-  color: #f7efcf;
-}
-.gray a,
-.gray a.menu-item,
-.gray .text,
-.gray .fr {
-  color: #222;
-}
+/* COLOR : Grape */
 
 .grape,
 .grape .fr,
@@ -116,6 +121,8 @@ input[type='checkbox']:checked {
   border: 2px solid #af477f;
 }
 
+/* COLOR : Blue */
+
 .challah,
 .challah .fr,
 .challah .copy,
@@ -141,13 +148,13 @@ input[type='checkbox']:checked {
   color: #5284B5;
 }
 .challah button {
-  /* border: 2px solid #5284B5; */
+  border: 0;
 }
 .challah input,
 .challah textarea {
   box-shadow: inset 0px 0px 0px 2px #88aacc;
   box-sizing: border-box;
-  /* border: 2px solid #88aacc; */
+  border: 0;
   color: #af477f;
 }
 .challah input[type='checkbox'] {
@@ -277,6 +284,12 @@ input[type='checkbox'] {
 
 /* GRID */
 
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .diptych,
 .polyptych {
   display: inline-grid;
@@ -330,22 +343,6 @@ div.ptych-center-right {
 }
 .basket .polyptych > div:not(.ptych-left) {
   margin: 0 auto;
-}
-
-
-
-body {
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-}
-.left {
-  float: left;
-  display: inline;
-}
-.right {
-  float: right;
-  display: inline;
 }
 
 /* GUTTER */
@@ -403,8 +400,6 @@ and ( max-width : 1919px ) {
 
 }
 
-/* @MEDIA */
-
 @media only screen
 and ( max-width : 1440px ) {
 
@@ -419,15 +414,44 @@ and ( max-width : 1440px ) {
 
 }
 
+/* IPAD Pro 12 : landscape */
+@media only screen
+and ( device-width : 1366px )
+and ( -webkit-device-pixel-ratio : 2 )
+and ( orientation : landscape ) {
+
+  body {
+    font-size: 2rem;
+  }
+}
+
+/* IPAD Pro 10.5 : landscape */
+@media only screen
+and ( device-width : 1112px )
+and ( -webkit-device-pixel-ratio : 2 )
+and ( orientation : landscape ) {
+
+  body {
+    font-size: 2rem;
+  }
+}
+
+/* IPAD 3, 4 : landscape */
+@media only screen
+and ( device-width : 1024px )
+and ( -webkit-device-pixel-ratio : 2 )
+and ( orientation : landscape ) {
+
+  body {
+    font-size: 2rem;
+  }
+}
+
 @media only screen
 and ( max-width : 960px ) {
 
   body {
     font-size: calc( 10px + ( 14 * ( ( 100vw - 480px ) / 480 ) ) );
-  }
-
-  .menu.text-right {
-    text-align: left;
   }
 
   .diptych:not(.ptych-fixed),
@@ -446,10 +470,10 @@ and ( max-width : 960px ) {
   .menu,
   .text {
     min-height: 24vh;
-  }
-  .menu,
-  .text {
     padding-top: 8vh;
+  }
+  .menu.text-right {
+    text-align: left;
   }
 
   img.logo {
@@ -459,11 +483,133 @@ and ( max-width : 960px ) {
 
 }
 
+/* IPHONE XS Max : landscape */
+@media only screen
+and ( device-width : 896px )
+and ( -webkit-device-pixel-ratio : 3 )
+and ( orientation : portrait ) {
+
+  body {
+    font-size: 3rem;
+  }
+}
+
+/* IPAD Pro 10.5 : portrait */
+@media only screen
+and ( device-width : 834px )
+and ( -webkit-device-pixel-ratio : 2 )
+and ( orientation : portrait ) {
+
+  body {
+    font-size: 2rem;
+  }
+}
+
+/* IPHONE X : landscape */
+@media only screen
+and ( device-width : 812px )
+and ( -webkit-device-pixel-ratio : 3 )
+and ( orientation : portrait ) {
+
+  body {
+    font-size: 3rem;
+  }
+}
+
+/* IPHONE 6, 7, 8 : landscape */
+@media only screen
+and ( device-width : 667px )
+and ( -webkit-device-pixel-ratio : 2 )
+and ( orientation : portrait ) {
+
+  body {
+    font-size: 2rem;
+  }
+}
+
+/* IPHONE 5, 5S : landscape */
+@media only screen
+and ( device-width : 568px )
+and ( -webkit-device-pixel-ratio : 2 )
+and ( orientation : landscape ) {
+
+  body {
+    font-size: 2rem;
+  }
+}
+
 @media only screen
 and ( max-width : 480px ) {
 
   body {
     font-size: 1rem;
+  }
+
+}
+
+/* IPHONE 4S : landscape */
+@media only screen
+and ( device-width : 480px )
+and ( -webkit-device-pixel-ratio : 2 )
+and ( orientation : landscape ) {
+
+  body {
+    font-size: 2.4rem;
+  }
+}
+
+/* IPHONE XS Max : portrait */
+@media only screen
+and ( device-width : 414px )
+and ( -webkit-device-pixel-ratio : 3 )
+and ( orientation : portrait ) {
+
+  body {
+    font-size: 3rem;
+  }
+}
+
+/* IPHONE 6+, 7+, 8+ : portrait */
+@media only screen
+and ( device-width : 414px )
+and ( -webkit-device-pixel-ratio : 2 )
+and ( orientation : portrait ) {
+
+  body {
+    font-size: 2rem;
+  }
+}
+
+/* IPAD 1, 2, MINI ... : portrait */
+@media only screen
+and ( device-width : 384px )
+and ( -webkit-device-pixel-ratio : 2 )
+and ( orientation : portrait ) {
+
+  body {
+    font-size: 2rem;
+  }
+}
+
+/* IPHONE X : portrait */
+@media only screen
+and ( device-width : 375px )
+and ( -webkit-device-pixel-ratio : 3 )
+and ( orientation : portrait ) {
+
+  body {
+    font-size: 3rem;
+  }
+}
+
+/* IPHONE 6, 7, 8 : portrait */
+@media only screen
+and ( device-width : 375px )
+and ( -webkit-device-pixel-ratio : 2 )
+and ( orientation : portrait ) {
+
+  body {
+    font-size: 2rem;
   }
 
 }
