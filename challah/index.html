@@ -200,7 +200,7 @@
 
     $order.innerHTML = items.map((item) => `${item.quantity} &times; ${item.name}. %0d%0a`).join("");
 
-    var body = $order.innerHTML + '%0d%0aShalom!%0d%0a%0d%0a(Enter%20any%20additional%20notes%20for%20Alison%20Clarke%20below.)%0d%0a-%20';
+    var body = $order.innerHTML + '%0d%0aShalom!%0d%0a%0d%0a(Enter%20any%20additional%20notes%20for%20Alison%20Clarke%20below.)%0d%0a-%20%0d%0a%0d%0a';
 
     window.location.href = "mailto:challah@alisonclarke.ca?subject=Order%20Request%20-%20Dolla%20Makes%20Me%20Challah&body=DOLLA%20MAKES%20ME%20CHALLAH%0d%0a%0d%0aYour%20order:%0d%0a"+body;
   }
