@@ -30,7 +30,8 @@ textarea,
 .bean .text,
 .gray .text,
 .grape .text,
-.challah .text {
+.challah .text,
+.party .text {
   background-color: #f7efcf;
 }
 
@@ -159,6 +160,45 @@ input[type='checkbox']:checked {
 }
 .challah input[type='checkbox'] {
   color: #88aacc;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* COLOR : Orange */
+
+.party,
+.party .fr,
+.party .copy,
+.party button {
+  background-color: #ccaa88;
+}
+.party article,
+.party button:hover,
+.party button:hover .fr {
+  background-color: #b58452;
+}
+.party,
+.party a.menu-item,
+.party .small,
+.party .small a,
+.party button,
+.party button .fr {
+  color: #f7efcf;
+}
+.party a,
+.party .text,
+.party .fr {
+  color: #b58452;
+}
+.party input,
+.party textarea {
+  box-shadow: inset 0px 0px 0px 2px #88aacc;
+  box-sizing: border-box;
+  border: 0;
+  color: #af7747;
+}
+.party input[type='checkbox'] {
+  color: #ccaa88;
   white-space: nowrap;
   overflow: hidden;
 }
